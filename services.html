@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan & Jasa Industri - PT Otomasi Solusi Indonesia</title>
+    <meta name="description" content="Layanan industrial automation, fabrikasi & presisi machining CNC, laser cutting, serta transportasi armada logistik.">
+    <link rel="icon" href="logoOSI.png" type="image/png">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Layanan & Jasa Industri - PT Otomasi Solusi Indonesia">
+    <meta property="og:description" content="Layanan industrial automation, fabrikasi & presisi machining CNC, laser cutting, serta transportasi armada logistik.">
+    <meta property="og:image" content="logoOSI.png">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="logoOSI.png" alt="Logo PT Otomasi Solusi Indonesia" style="height:60px;">
+                    <span>PT OTOMASI SOLUSI INDONESIA</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="aboutus.html">Tentang Kami</a></li>
+                    <li>
+                        <a href="#" onclick="return false;">Layanan <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="product.html">Produk</a></li>
+                            <li><a href="services.html">Jasa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <a href="index.html">Beranda</a>
+                <span>></span>
+                <span>Layanan</span>
+                <span>></span>
+                <span>Jasa</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">Layanan <span>Kami</span></h2>
+            
+            <!-- Service Categories -->
+            <div class="service-categories">
+                <div class="category-tab active" data-category="all">Semua Layanan</div>
+                <div class="category-tab" data-category="fabrication">Fabrikasi & Machining</div>
+                <div class="category-tab" data-category="transportation">Transportasi & Logistik</div>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <!-- Fabrication & Machining Services -->
+                <div class="service-card" data-category="fabrication">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="Laser Cutting">
+                        <span class="service-badge">Fabrikasi</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Laser Cutting Presisi</h3>
+                        <p class="service-description">Layanan pemotongan presisi dengan teknologi laser fiber untuk berbagai material logam dengan akurasi tinggi dan hasil yang konsisten.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Presisi tinggi (±0.1mm)</li>
+                            <li><i class="fas fa-check-circle"></i> Material: Baja, Stainless Steel, Aluminium</li>
+                            <li><i class="fas fa-check-circle"></i> Ketebalan: 0.5mm - 25mm</li>
+                            <li><i class="fas fa-check-circle"></i> Kapasitas area: 3000x1500mm</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Konsultasi Gratis</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-category="fabrication">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="Wire Cut">
+                        <span class="service-badge">Machining</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Wire Cut EDM</h3>
+                        <p class="service-description">Layanan pemotongan dengan kawat untuk material konduktif dengan presisi sangat tinggi dan kemampuan memotong bentuk kompleks.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Presisi sangat tinggi (±0.01mm)</li>
+                            <li><i class="fas fa-check-circle"></i> Material: Logam konduktif (tool steel, carbide)</li>
+                            <li><i class="fas fa-check-circle"></i> Kemampuan potong bentuk kompleks</li>
+                            <li><i class="fas fa-check-circle"></i> Surface finish halus</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Konsultasi Gratis</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-category="fabrication">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="CNC Milling">
+                        <span class="service-badge">Machining</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>CNC Milling 5-Axis</h3>
+                        <p class="service-description">Layanan milling CNC 5-axis untuk pembuatan komponen dengan bentuk kompleks dan presisi tinggi dalam sekali setup.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> 5-Axis simultaneous machining</li>
+                            <li><i class="fas fa-check-circle"></i> Material: Logam, Plastik Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> Toleransi hingga ±0.02mm</li>
+                            <li><i class="fas fa-check-circle"></i> Kapasitas: 1000x600x500mm</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Konsultasi Gratis</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-category="fabrication">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="CNC Lathe">
+                        <span class="service-badge">Machining</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>CNC Lathe Presisi</h3>
+                        <p class="service-description">Layanan bubut CNC untuk pembuatan komponen silindris dan rotational parts dengan presisi tinggi dan surface finish excellent.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Diameter hingga 600mm</li>
+                            <li><i class="fas fa-check-circle"></i> Material: Logam, Plastik Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> Toleransi hingga ±0.01mm</li>
+                            <li><i class="fas fa-check-circle"></i> Live tooling capabilities</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Konsultasi Gratis</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transportation Services -->
+                <div class="service-card" data-category="transportation">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="Rent Trucking">
+                        <span class="service-badge">Transportasi</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Sewa Truk Lengkap</h3>
+                        <p class="service-description">Layanan sewa truk dengan driver untuk kebutuhan pengiriman barang dengan berbagai jenis truk dan kapasitas.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Durasi harian/mingguan/bulanan</li>
+                            <li><i class="fas fa-check-circle"></i> Driver berpengalaman & terlatih</li>
+                            <li><i class="fas fa-check-circle"></i> Asuransi pengiriman komprehensif</li>
+                            <li><i class="fas fa-check-circle"></i> Layanan 24/7 support</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-category="transportation">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="Delivery One Cycle">
+                        <span class="service-badge">Logistik</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Pengiriman One Cycle</h3>
+                        <p class="service-description">Layanan pengiriman door-to-door dengan sistem one cycle untuk efisiensi waktu dan biaya dengan tracking real-time.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Pengambilan & pengantaran langsung</li>
+                            <li><i class="fas fa-check-circle"></i> Tracking real-time 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> Layanan cepat dan terpercaya</li>
+                            <li><i class="fas fa-check-circle"></i> Coverage area seluruh Indonesia</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-category="transportation">
+                    <div class="service-image">
+                        <img src="logoOSI.png" alt="Spot Call Pick Up">
+                        <span class="service-badge">Express</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Spot Call Pick Up</h3>
+                        <p class="service-description">Layanan pick up cepat untuk kebutuhan pengiriman mendadak dan urgent dengan respons time kurang dari 2 jam.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Respons cepat (< 2 jam)</li>
+                            <li><i class="fas fa-check-circle"></i> Layanan 24/7 untuk kebutuhan darurat</li>
+                            <li><i class="fas fa-check-circle"></i> Area Jabodetabek dan sekitarnya</li>
+                            <li><i class="fas fa-check-circle"></i> Prioritas handling</li>
+                        </ul>
+                        <div class="service-actions">
+                            <button class="btn" onclick="window.location.href='contact.html?subject=service'">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Truck Types Section -->
+    <section class="section truck-types" id="truck-types">
+        <div class="container">
+            <h2 class="section-title">Jenis <span>Truk</span> Tersedia</h2>
+            <div class="truck-grid">
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="9.jpg" alt="Pick Up">
+                    </div>
+                    <div class="truck-info">
+                        <h3>Pick Up</h3>
+                        <p class="truck-capacity">Kapasitas: 1-2 ton</p>
+                        <p class="truck-capacity">Dimensi: 2.1m x 1.5m x 1.5m</p>
+                        <p class="truck-capacity">Jenis: Pick Up Standard</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*Pick%20Up*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="Toyota_Lite_Ace_Panel_Van-removebg-preview-480x262.png" alt="Blind Van (Small)">
+                    </div>
+                    <div class="truck-info">
+                        <h3>Blind Van (Kecil)</h3>
+                        <p class="truck-capacity">Kapasitas: 2-3 ton</p>
+                        <p class="truck-capacity">Dimensi: 3.5m x 1.8m x 1.8m</p>
+                        <p class="truck-capacity">Jenis: Box tertutup</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*Blind%20Van%20(Kecil)*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="Dealer-Mitsubishi-Colt-Diesel-FE-71-4-Ban-110-PS-Surabaya.jpg" alt="CDE (Colt Diesel Engkel)">
+                    </div>
+                    <div class="truck-info">
+                        <h3>CDE (Colt Diesel Engkel)</h3>
+                        <p class="truck-capacity">Kapasitas: 4-5 ton</p>
+                        <p class="truck-capacity">Dimensi: 4.2m x 2.0m x 1.9m</p>
+                        <p class="truck-capacity">Jenis: Roda 4</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*CDE%20(Colt%20Diesel%20Engkel)*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="OIP.webp" alt="CDD (Colt Diesel Double)">
+                    </div>
+                    <div class="truck-info">
+                        <h3>CDD (Colt Diesel Double)</h3>
+                        <p class="truck-capacity">Kapasitas: 7-8 ton</p>
+                        <p class="truck-capacity">Dimensi: 5.5m x 2.2m x 2.2m</p>
+                        <p class="truck-capacity">Jenis: Roda 6</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*CDD%20(Colt%20Diesel%20Double)*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="OIP2.jpg" alt="Wing Box">
+                    </div>
+                    <div class="truck-info">
+                        <h3>Wing Box</h3>
+                        <p class="truck-capacity">Kapasitas: 10-12 ton</p>
+                        <p class="truck-capacity">Dimensi: 7.5m x 2.4m x 2.6m</p>
+                        <p class="truck-capacity">Jenis: Buka samping</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*Wing%20Box*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="truck-card">
+                    <div class="truck-image">
+                        <img src="website-masthead-wsi-5-580x366.jpg" alt="Container Trailer">
+                    </div>
+                    <div class="truck-info">
+                        <h3>Container Trailer</h3>
+                        <p class="truck-capacity">Kapasitas: 20-25 ton</p>
+                        <p class="truck-capacity">Dimensi: 12m x 2.4m x 2.6m</p>
+                        <p class="truck-capacity">Jenis: Trailer</p>
+                    <div class="truck-actions" style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0;">
+                            <a href="https://wa.me/6281284872876?text=Halo%20PT%20Otomasi%20Solusi%20Indonesia,%20saya%20tertarik%20untuk%20menyewa%20armada%20logistik:%20*Container%20Trailer*" target="_blank" class="btn btn-wa btn-sm" style="width: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; gap: 6px;"><i class="fab fa-whatsapp"></i> Sewa Armada Ini</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Butuh Layanan Fabrication atau Transportation?</h2>
+                <p>Kami siap membantu kebutuhan fabrication, machining, dan transportasi Anda dengan solusi terbaik dan harga kompetitif. Hubungi kami sekarang untuk konsultasi gratis.</p>
+                <a href="contact.html" class="btn">Hubungi Kami Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>PT Otomasi Solusi Indonesia</h3>
+                    <p>Sebagai mitra terpercaya industri nasional, kami menyediakan solusi otomasi terintegrasi, material industri berkualitas tinggi, serta layanan machining presisi dan logistik yang handal.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/6281284872876" target="_blank" title="WhatsApp Kami" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:otomasisolusiindonesia@gmail.com" title="Kirim Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+6281284872876" title="Hubungi Telepon" aria-label="Telepon"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Tautan Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="aboutus.html">Tentang Kami</a></li>
+                        <li><a href="product.html">Produk</a></li>
+                        <li><a href="services.html">Jasa</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Layanan &amp; Produk</h3>
+                    <ul class="footer-links">
+                        <li><a href="product.html#material">Material Industri</a></li>
+                        <li><a href="product.html#chemical">Bahan Kimia Industri</a></li>
+                        <li><a href="product.html#lubrication">Pelumas Industri</a></li>
+                        <li><a href="services.html#fabrication">Jasa Machining &amp; Fabrikasi</a></li>
+                        <li><a href="services.html#transportation">Transportasi &amp; Logistik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Kontak Kami</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Greenland Delta Mas, Blok AB No. 15, Cikarang Pusat, Kab. Bekasi</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+6281284872876">0812-8487-2876</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:otomasisolusiindonesia@gmail.com">otomasisolusiindonesia@gmail.com</a></li>
+                        <li><i class="fas fa-clock"></i> Senin - Jumat: 08:00 - 17:00 WIB<br>Sabtu: 08:00 - 14:00 WIB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 PT Otomasi Solusi Indonesia. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

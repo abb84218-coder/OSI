@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#3498db" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ecf0f1" stop-opacity="0.75" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="600" rx="16" fill="url(#bgGrad)" />
+  <circle cx="250" cy="220" r="90" fill="url(#avatarGrad)" />
+  <path d="M 120 460 C 120 340, 380 340, 380 460 C 380 500, 120 500, 120 460 Z" fill="url(#avatarGrad)" />
+  <text x="250" y="530" font-family="'Poppins', sans-serif" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="1">NUR LAILI F.</text>
+  <text x="250" y="560" font-family="'Poppins', sans-serif" font-size="15" fill="#e0e6ed" text-anchor="middle" letter-spacing="0.5">Pendiri &amp; Direktur Utama</text>
+</svg>
